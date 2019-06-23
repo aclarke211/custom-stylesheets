@@ -1,3 +1,33 @@
 .cs-title {
   color: red;
 }
+
+.cs-form__container {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.cs-text-area {
+  margin: .5rem;
+}
+
+.cs-test-btn {
+  border: 2px solid darkseagreen;
+  color: darkseagreen;
+  background-color: transparent;
+  border-radius: .25rem;
+  padding: .75rem 2rem;
+  margin: 1rem;
+  transition: all .5s;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cs-test-btn:hover {
+  background-color: darkseagreen;
+  color: white;
+}
